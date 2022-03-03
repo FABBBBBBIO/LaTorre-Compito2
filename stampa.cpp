@@ -15,6 +15,7 @@ int main()
   while (i<n)
   {
    cout<<"Bada come la fuma"<<endl; 
+   n++;
   }
   system("pause");
 }
