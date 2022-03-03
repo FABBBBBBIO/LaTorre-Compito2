@@ -1,0 +1,30 @@
+   51  git checkout master
+   52  git merge NewFeature-Navbar
+   53  git checkout NewFeature-Navbar
+   54  git add -A
+   55  git commit -m "speriamo bene"
+   56  git push origin NewFeature-Navbar
+   57  git checkout master
+   58  git add -A
+   59  git commit -m "ciaoComeStai"
+   60  git merge NewFeature-Navbar
+   61  git add -A
+   62  git commit -m "merge-conflict"
+   63  git push origin master
+   64  .. Desktop
+   65  ..Desktop
+   66  git clone https://github.com/sena-meucci/progettoStampa.git
+   67  ls
+   68  cd progettostampa
+   69  cd progettoStampa
+   70  git add -A
+   71  git commit -m "inserito nome"
+   72  git branch BugFix
+   73  git checkout BugFix
+   74  git add -A
+   75  git commit -m "errore risolto in stampa"
+   76  git checkout master
+   77  git merge BugFix
+   78  git -d branch BugFix
+   79  git branch -d BugFix
+   80  history 30 > comandi.txt

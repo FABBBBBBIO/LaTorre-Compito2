@@ -9,7 +9,7 @@ Fabio La Torre 3/03/2022
 using namespace std;
 int main()
 {
-  int i=10 ,n;
+  int i=10 ,n=0;
   cout<<"Quante volte voi stampare la frase? ";
   cin>>n;
   while (i<n)
